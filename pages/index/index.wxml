@@ -1,0 +1,52 @@
+<view style="width:100%;margin:0;">
+  <swiper indicator-dots="{{indicatorDots}}" 
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" style='height:350rpx;'>
+    <block wx:for="{{imgUrls}}">
+      <swiper-item>
+        <image src="{{item}}" class="slide-image" mode='widthFix'/>
+      </swiper-item>
+    </block>
+  </swiper>
+</view>
+<view class="category">
+  <view class="category_item" wx:for="{{iconArray}}">
+    <view class="category_item_wrap" bindtap='consult'>
+      <view class="icon_wrap">
+        <image src="{{item.iconUrl}}" class="index_icon"></image>
+      </view>
+      <view class="category_item_text">
+        <text>{{item.iconText}}</text>
+      </view>
+    </view>
+  </view>
+</view>
+<view style="background-color:white">
+    <image class="slide-image" mode='widthFix' mode="widthFix" src="../../image/index/b1.jpg"></image>
+  </view>
+  
+<view style="background-color:white">
+  <view class="block_title">
+    <view class="block_title_text">好课推荐</view>
+    <image class="block_title_icon" src="../../image/icon/right.png"></image>
+    
+    </view>
+    <image class='slide-image' mode="widthFix" src="../../image/index/b2.png"></image>
+
+  <view class="hor_slider" bindtap="tapSlider">
+    <view data-id="1" class="slide_item {{current_slider==1?'slide_active':''}}">体验计划</view>
+    <view data-id="2" class="slide_item {{current_slider==2?'slide_active':''}}">系统计划</view>
+    <!-- <view data-id="3" class="slide_item {{current_slider==3?'slide_active':''}}">售后附件</view>
+    <view data-id="4" class="slide_item {{current_slider==4?'slide_active':''}}">充值保养</view> -->
+  </view>
+  <view class="sq_block_area">
+    <view class="sq_block" wx:for="{{current_slider_data}}" wx:key='{{item.no}}' data-target='{{item.navto}}' bindtap='toSpDetail'>
+      <image class="sq_block_img" mode="aspectFill" src="{{item.goods_img}}"></image>
+      <view class="sq_blcok_title">
+        <view class="sq_block_title_tag">{{item.ishot}}</view>
+        <view class="sq_block_title_text">{{item.goods_name}}</view>
+      </view>
+      <view class="sq_block_detail">{{item.price}}</view>
+    </view>
+
+  </view>
+</view>

@@ -1,0 +1,129 @@
+.swiper-item{
+  display: block;
+}
+.slide-image {
+  width: 100%;
+}
+swiper {
+  width: 100%;
+}
+.category {
+  padding: 30rpx 0 20rpx 0;
+  overflow: auto;
+  background-color: #FFF;
+  margin-bottom: 0rpx;
+}
+.category_item {
+  width: 25%;
+  float: left;
+  margin-bottom: 20rpx;
+}
+.icon_wrap {
+  width: 80rpx;
+  margin: 0 auto;
+  margin-bottom: 0rpx;
+}
+.index_icon {
+  width: 80rpx;
+  height: 80rpx;
+}
+.category_item_text {
+  text-align: center;
+  font-size: 22rpx;
+  color: #737373;
+}
+.block_title{
+  padding: 20rpx;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.block_title_text{
+  font-size: 36rpx;
+  font-weight: bold;
+}
+.block_title_icon{
+  height: 30rpx;
+  width: 30rpx;
+}
+.block{
+  padding-left:40rpx;
+  padding-top:5rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  height:160rpx;
+}
+.block_img{
+  height: 140rpx;
+  width: 200rpx;
+}
+.block_detail{
+  height:140rpx;
+  padding: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.block_detail_title{
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-top:6rpx;
+}
+.block_detail_text{
+  font-size: 20rpx;
+  color:gray;
+}
+.hor_slider{
+  margin-bottom: 20rpx;
+}
+.slide_item{
+  display: inline-block;
+  font-size:28rpx;
+  padding: 20rpx;
+  font-weight: 600;
+}
+.slide_active{
+  color: rgb(255, 81, 0);
+  border-bottom: 6rpx solid rgb(255, 81, 0);
+}
+.sq_block_area{
+  margin-left:0;
+  margin-right: auto;
+  width: 750rpx;
+}
+.sq_block{
+  width: 300rpx;
+  /*display: inline-block;*/
+  margin-left:50rpx;
+  margin-bottom: 20rpx;
+  float:left;
+}
+.sq_block_img{
+  width: 300rpx;
+  height: 300rpx;
+  border-radius: 20rpx;
+}
+.sq_block_title{
+  margin: 0;
+  padding: 0;
+}
+.sq_block_title_tag{
+  font-size: 18rpx;
+  display: inline;
+  background-color: rgb(255, 81, 0);
+  color: white;
+  padding: 4rpx;
+  margin-right: 16rpx;
+  border-radius: 16rpx;
+}
+.sq_block_title_text{
+  font-size: 22rpx;
+  display: inline;
+  font-weight: bold;
+}
+.sq_block_detail{
+  font-size: 22rpx;
+  color: rgb(255, 81, 0);
+}

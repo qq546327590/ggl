@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/shopping_cart/shopping_cart",
+    "pages/wode/wode",
+    "pages/spdetail/spdetail",
+    "pages/pedal_detail/pedal_detail",
+    "pages/ticket_detail/ticket_detail",
+    "pages/ticket_pay/ticket_pay",
+    "pages/pay/pay",
+    "pages/qrcode/qrcode"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#929292",
+    "backgroundColor": "#ffffff",
+    "selectedColor": "#69C3AA",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "商城",
+        "iconPath": "image/shouye1.png",
+        "selectedIconPath": "image/shouye.png"
+      },
+    
+      {
+        "pagePath": "pages/wode/wode",
+        "text": "我的",
+        "iconPath": "image/wode1.png",
+        "selectedIconPath": "image/wode.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

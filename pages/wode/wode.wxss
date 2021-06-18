@@ -1,0 +1,51 @@
+.personal_info {
+	padding: 40rpx 0;
+	background-color: #FFF;
+}
+.photo_wrap {
+	text-align: center;
+}
+.photo {
+	width: 180rpx;
+	height: 180rpx;
+	border-radius: 180rpx;
+}
+.nickname {
+	margin-top: 30rpx;
+	text-align: center;
+	color: #696969;
+}
+.wode_item_wrap {
+	background-color: #FFF;
+	font-size: 28rpx;
+	margin-top: 20rpx;
+	border-top: 2rpx solid #E5E5E5;
+}
+.wode_item {
+    height: 90rpx;
+	border-bottom: 2rpx solid #E5E5E5;
+	padding: 0 20rpx;
+	line-height: 90rpx;
+	position: relative;
+}
+.arrow_wrap {
+    position: absolute;
+    width: 24rpx;
+    height: 24rpx;
+    right: 10rpx;
+    top: 34rpx;
+    /*background-image: url(../../image/icon-arrow.png);
+    background-image: url("https://www.volvocars.com/static/images/volvo-logo-scaled.png");*/
+    background-repeat: no-repeat;
+    background-size: 32rpx;
+    background-position: 34rpx 28rpx;
+}
+.wode_out {
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	background-color: #FFF;
+	margin-top: 20rpx;
+	border-bottom: 2rpx solid #E5E5E5;
+	border-top: 2rpx solid #E5E5E5;
+}

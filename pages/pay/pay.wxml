@@ -1,0 +1,88 @@
+<view class="pay_address_wrap">
+	<view class="address_icon">
+        <image src='{{header_src}}' style='width:60rpx;margin-left:20rpx;' mode='widthFix'></image>
+    </view>
+	<view class="pay_address">
+		<view class="pay_contact">
+			<view>黄嘟嘟</view>
+			<view>18810696349</view>
+			<!--<view>
+				浙江省杭州市西湖区文三西路沁雅花园12幢1单元401
+			</view>-->
+            
+			<image class='pay_address_sel' src='{{pay_address_arrow}}' />
+		</view>
+        
+	</view>
+    <view class='pay_method'>支付方式：
+    <image src='../../image/WeChatPay.png' mode='widthFix' style='width:26rpx;'></image>
+    微信支付</view>
+    
+</view>
+<!--<view class='client_info'>
+	<view class='table_header'>购买方信息</view>
+	<view class='info_row'>
+		<view class='info_name'>姓名：</view>
+		<input class='info_detail' type="text" placeholder='购买人姓名'/>
+	</view>
+	<view class='info_row'>
+		<view class='info_name'>手机号：</view>
+		<input class='info_detail' type="text" placeholder='购买人联系电话'/>
+	</view>
+	<!--<view class='info_row'>
+		<view class='info_name'>邮箱：</view>
+		<input class='info_detail' type="text" placeholder='购买人邮箱'/>
+	</view>--
+	<view class='info_row'>
+		<view class='info_name'>地址：</view>
+		<input class='info_detail' type="text" placeholder='购买人地址'/>
+	</view>
+</view>-->
+<view class="pay_order_wrap">
+	<view class="table_header">
+		<span class="table_goods_name">商品</span>
+		<span class="table_goods_num">数量</span>
+		<span class="table_goods_con">单价</span>
+	</view>
+	<view class="table_content">
+		<block wx:for="{{choose_goods_arr}}" wx:key="{{item.no}}">
+			<view class="table_content_item">
+				<view class="table_goods_name" style="display:inline-block;">
+					<image src="{{item.src}}" mode="widthFix" style='width:130rpx' data-target='{{item.navto}}' bindtap='toSpDetail'/>
+                    <!--<view style='float:left;font-weight:bold;margin:50rpx 20rpx 20rpx 20rpx;'>{{item.name}}</view>-->
+					<view style='display:inline-block;width:250rpx;white-space:pre-line;'>{{item.name}}</view>
+				</view>
+				<span class="table_goods_num">{{item.num}}</span>
+				<span class="table_goods_con">{{item.price}}</span>
+			</view>
+		</block>
+	</view>
+</view>
+<view class="pay_remarks">
+	<view class='table_header'>备注</view>
+	<input type='text' placeholder="填写备注" type='text'></input>
+</view>
+<view class="car_bot">
+	<view class="car_bot_wrap">
+		总价
+		<!--<span class="car_order_confirm" bindtap="toPay">提交订单</span>
+		<span class="car_total_money">¥643,800</span>-->
+        <span class="car_order_confirm" bindtap="toPay">立即支付</span>
+		<span class="car_total_money">{{total_amt}}</span>
+	</view>
+</view>
+<!--<image class='pay_img' src='{{wechat_pay_img_src}}' style='display:{{pay_img_display}};' mode='widthFix'></image>-->
+<view class='pay_cover' style='display:{{pay_view_display}}'></view>
+<view class='pay_view' style='display:{{pay_view_display}};'>
+    <view class='pay_title'>
+        输入支付密码
+        <view style='float:right;border:none;color:grey;'>×</view>
+        <!--<icon type='cancel' color='grey' style='margin-left:80rpx;float:right'></icon>-->
+    </view>
+    <view class='pay_content'>
+        <view class='platform_name'>瓜瓜龙商城</view>
+        <view class='pay_amt'>{{total_amt}}</view>
+        <image src='{{wechat_pay_img_src}}' mode='widthFix' style='width:100%'></image>
+        <button class='payBtn' bindtap='payComplete'>支付</button>
+    </view>
+</view>

@@ -1,0 +1,184 @@
+.pay_address_wrap {
+	background-color: #FFF;
+	padding: 20rpx 0;
+	position: relative;
+	padding-left: 100rpx;
+	padding-right: 80rpx;
+	height: 140rpx;
+}
+.address_icon {
+	position: absolute;
+	top: 20rpx;
+	left: 0;
+	width: 100rpx;
+	height: 100rpx;
+	/*background-image: url(../../image/icon-dw.png);
+    background-image: url("https://www.volvocars.com/static/images/volvo-logo-scaled.png");*/
+	background-size: 56rpx;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.pay_address {
+	font-size: 28rpx;
+}
+.pay_contact {
+	margin-bottom: 16rpx;
+}
+.pay_address_sel {
+	position: absolute;
+	width: 20rpx;
+    height: 20rpx;
+    right: 20rpx;
+    top: 30rpx;
+    /*background-image: url(../../image/icon-arrow.png);
+    background-image: url("https://www.volvocars.com/static/images/volvo-logo-scaled.png");
+    background-repeat: no-repeat;*/
+    background-size: 32rpx;
+    background-position: center;
+}
+.pay_order_wrap {
+	background-color: #FFF;
+	margin-top: 20rpx;
+}
+.table_header {
+	padding: 20rpx;
+	font-size: 28rpx;
+	border-bottom: 2rpx solid #E5E5E5;
+}
+.table_goods_name {
+	display: inline-block;
+	width: 55%;
+	white-space:nowrap;
+    overflow:hidden;
+    text-overflow:ellipsis;
+}
+.table_goods_num {
+	display: inline-block;
+	width: 15%;
+	text-align: right;
+}
+.table_goods_con {
+	display: inline-block;
+	width: 30%;
+	text-align: right;
+}
+.table_content {
+	font-size: 24rpx;
+	padding: 0 20rpx;
+	padding-bottom: 20rpx;
+}
+.table_content_item {
+	padding-top: 20rpx;
+}
+.pay_remarks {
+	background-color: #FFF;
+	font-size: 28rpx;
+	padding: 20rpx 0;
+	margin-top: 20rpx;
+}
+.car_bot {
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+    bottom: 0;
+    border-bottom: 2rpx solid #E5E5E5;
+    font-size: 28rpx;
+}
+.car_bot_wrap {
+    padding: 20rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.car_order_confirm {
+    display: inline-block;
+    float: right;
+    background-color: #ff7e3a;
+    color: #FFF;
+    border-radius: 6rpx;
+    width: 160rpx;
+    text-align: center;
+}
+.car_total_money {
+    display: inline-block;
+    color: #FF0000;
+    margin-left: 10rpx;
+}
+.client_info{
+	background:#FFF;
+	margin:20rpx 0;
+	font-size: 24rpx; 
+	padding-bottom:20rpx; 
+}
+.info_row{
+	margin:20rpx;
+}
+.info_detail{
+	border:2rpx solid #E5E5E5;
+	width:400rpx;
+}
+.info_name{
+	font-size: 24rpx; 
+	width:120rpx;
+	float:left;
+}
+.pay_view{
+    width:440rpx;
+    z-index:9;
+    position:absolute;
+    top:300rpx;
+    left:160rpx;
+    border:2rpx solid rgb(240,240,240);
+    background: white;
+    border-radius:20rpx;
+}
+
+.pay_title{
+    border-bottom:2rpx solid rgb(81,195,50);
+    font-size:30rpx;
+    font-weight:bold;
+    font-family: "microsoft yahei";
+    margin:10rpx 15rpx;
+    padding:10rpx 5rpx 15rpx 5rpx;
+}
+.payBtn{
+    width:400rpx;
+    height: 50rpx;
+    font-size:28rpx;
+    line-height: 50rpx;
+    margin:10rpx 20rpx 20rpx 20rpx;
+    background: rgb(81,195,50);
+    color:white;
+}
+
+
+.platform_name{
+    font-size:26rpx;
+    display:flex;
+    justify-content: center;
+    margin:20rpx 0rpx 6rpx 0rpx;
+}
+.pay_amt{
+    font-size:54rpx;
+    display:flex;
+    justify-content: center;
+    font-weight: bold;
+    margin:4rpx 0rpx 16rpx 0rpx;
+    
+}
+.pay_cover{
+    background: rgba(91,89,89,0.5);
+    top:0;
+    left:0;
+    position: absolute;
+    z-index: 8;
+    width:100%;
+    height:100%;
+}
+.pay_method{
+    border-top: 2rpx solid #E5E5E5;
+    font-size: 28rpx;
+    margin:27rpx 0rpx 0rpx 0rpx;
+    padding:8rpx 0rpx 0rpx 10rpx;
+}
+
+

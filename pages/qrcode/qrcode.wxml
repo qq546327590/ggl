@@ -1,0 +1,8 @@
+<!--pages/register/register.wxml-->
+<view class="total">
+<!-- 这是一个二维码！！！ -->
+<!-- <image class="scanimg" src="{{filePath}}" bindtap="getAgain"></image> -->
+<image class="a" src="../../image/index/QRMassage.jpg" ></image>
+<!-- <button type="primary" bindtap="primary">点击生成二维码</button> -->
+</view>
+

@@ -1,0 +1,119 @@
+.car_item_wrap {
+    position: relative;
+    height: 200rpx;
+    background-color: #FFF;
+    padding-left: 200rpx;
+    border-bottom: 2rpx solid #E7E7EB;
+}
+.car_image_wrap {
+    position: absolute;
+    top: 20rpx;
+    left: 20rpx;
+}
+.car_item_image {
+    width: 160rpx;
+    height: 160rpx;
+}
+.car_item_title {
+    padding: 20rpx 20rpx 20rpx 0;
+    font-size: 24rpx;
+}
+.car_item_bot {
+   padding: 0 20rpx 0 0;
+   height: 56rpx;
+   line-height: 56rpx;
+}
+.car_item_price {
+    color: #ff0000;
+    font-size: 28rpx;
+}
+.car_item_operate {
+    display: inline-block;
+    float: right;
+}
+.car_item_btn {
+    display: inline-block;
+    width: 32rpx;
+    height: 32rpx;
+    text-align: center;
+    line-height: 32rpx;
+    border: 2rpx solid #B2B2B2;
+    color: #929292;
+}
+.car_item_num {
+    display: inline-block;
+    width: 80rpx;
+    height: 32rpx;
+    text-align: center;
+    line-height: 32rpx;
+    border-top: 2rpx solid #B2B2B2;
+    border-bottom: 2rpx solid #B2B2B2;
+    font-size: 28rpx;
+    position: relative;
+    color: #929292;
+}
+.car_item_del {
+    display: inline-block;
+    width: 44rpx;
+    height: 44rpx;
+    /*background-image: url(../../image/shanchu.png);
+    background-image: url("https://www.volvocars.com/static/images/volvo-logo-scaled.png");*/
+    background-size: 48rpx;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: right;
+    margin-left: 30rpx;
+}
+.car_bot {
+    position: fixed;
+    width: 100%;
+    background-color: #FFF;
+    bottom: 0;
+    border-bottom: 2rpx solid #E5E5E5;
+    font-size: 28rpx;
+}
+.car_bot_wrap {
+    padding: 20rpx;
+    height: 60rpx;
+    line-height: 60rpx;
+}
+.car_order_confirm {
+    display: inline-block;
+    float: right;
+    background-color: #ff7e3a;
+    color: #FFF;
+    border-radius: 6rpx;
+    width: 160rpx;
+    text-align: center;
+}
+.car_total_money {
+    display: inline-block;
+    color: #FF0000;
+    margin-left: 10rpx;
+}
+.car_list_bot {
+    background-color: #FFF;
+    padding: 20rpx;
+    font-size: 28rpx;
+    height: 50rpx;
+    line-height: 50rpx;
+    padding-right: 100rpx;
+    text-align: right;
+    position: relative;
+    color: #929292;
+}
+.arrow_wrap {
+    position: absolute;
+    width: 100rpx;
+    height: 90rpx;
+    right: 0;
+    top: 0;
+    /*background-image: url(../../image/icon-arrow.png);*/
+    background-image: url("https://www.volvocars.com/static/images/volvo-logo-scaled.png");
+    background-repeat: no-repeat;
+    background-size: 32rpx;
+    background-position: 34rpx 28rpx;
+}
+.red {
+    color: #FF0000;
+}
